@@ -123,6 +123,7 @@ function readIncoming(inMessage) {
   }
 
 }
+
 function allCursors(x,y,r,g,b,who){ // creates a new JSON object for us
  
   this.x = x; // this is shorthand for saying "this object"
@@ -131,5 +132,5 @@ function allCursors(x,y,r,g,b,who){ // creates a new JSON object for us
   this.g = g;
   this.b = b;
   this.who = who;
-
 }
+
